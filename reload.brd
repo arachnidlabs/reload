@@ -115,10 +115,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="49.2" y2="0" width="0" layer="20"/>
-<wire x1="49.2" y1="0" x2="49.2" y2="30.47" width="0" layer="20"/>
-<wire x1="49.2" y1="30.47" x2="0" y2="30.47" width="0" layer="20"/>
-<wire x1="0" y1="30.47" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="28.97" x2="0" y2="1.5" width="0" layer="20"/>
+<wire x1="0" y1="1.5" x2="1.5" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="1.5" y1="0" x2="47.7" y2="0" width="0" layer="20"/>
+<wire x1="47.7" y1="0" x2="49.2" y2="1.5" width="0" layer="20" curve="90"/>
+<wire x1="49.2" y1="1.5" x2="49.2" y2="28.97" width="0" layer="20"/>
+<wire x1="49.2" y1="28.97" x2="47.7" y2="30.47" width="0" layer="20" curve="90"/>
+<wire x1="47.7" y1="30.47" x2="1.5" y2="30.47" width="0" layer="20"/>
+<wire x1="1.5" y1="30.47" x2="0" y2="28.97" width="0" layer="20" curve="90"/>
 <text x="36.83" y="4.1275" size="0.8128" layer="25" align="bottom-center">1A = 0.1V</text>
 <text x="36.83" y="5.3975" size="0.6096" layer="25" align="bottom-center">Current Sense</text>
 <text x="34.925" y="2.8575" size="1.016" layer="25" align="bottom-center">+</text>
