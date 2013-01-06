@@ -14,10 +14,11 @@ Re:load is an adjustable dummy load with the following features:
  * Test points for reading current with a voltmeter.
  
  
- BoM
- ---
+BoM
+---
+
 <table>
-  <th><td>Name</td><td>Description</td><td>Part Number</td><td>Quantity</td></th>
+  <tr><th>Name</th><th>Description</th><th>Part Number</th><th>Quantity</th></tr>
   <tr><td>D1</td><td>400mV dropout schottky diode</td><td><a href="http://uk.farnell.com/multicomp/bat42/diode-schottky-do-35/dp/1621827">BAT42</a></td><td>1</td></tr>
   <tr><td>C1</td><td>0.1uF Ceramic Capacitor</td><td><a href="http://uk.farnell.com/multicomp/mc0805104m500a2-54mm/capacitor-0-1uf-50v5v-rad/dp/2112751">MC0805Y104M500A2.54MM</a></td><td>1</td></tr>
   <tr><td>C2</td><td>10uF Aluminium Electroltyic Capacitor</td><td><a href="http://uk.farnell.com/multicomp/mcrh25v106m5x11/capacitor-10uf-25v/dp/1902913">MCRH25V106M5X11</a></td><td>1</td></tr>
