@@ -3245,7 +3245,7 @@ For COM-09806 in the SparkFun catalog&lt;br&gt;</description>
 </class>
 </classes>
 <parts>
-<part name="IC1" library="SparkFun-AnalogIC" deviceset="LM358" device="" value="LP2950"/>
+<part name="IC1" library="SparkFun-AnalogIC" deviceset="LM358" device="" value="MCP6002"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1W" value="0.05 1%"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="PTH2" value="BTS117"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
@@ -3254,7 +3254,7 @@ For COM-09806 in the SparkFun catalog&lt;br&gt;</description>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="SparkFun-Electromechanical" deviceset="POT" device="" value="10k"/>
+<part name="R6" library="SparkFun-Electromechanical" deviceset="POT" device="" value="10k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="162k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -3291,7 +3291,7 @@ For COM-09806 in the SparkFun catalog&lt;br&gt;</description>
 <instance part="P+1" gate="1" x="58.42" y="43.18"/>
 <instance part="GND1" gate="1" x="58.42" y="7.62"/>
 <instance part="GND2" gate="1" x="33.02" y="25.4"/>
-<instance part="R7" gate="G$1" x="17.78" y="33.02"/>
+<instance part="R6" gate="G$1" x="17.78" y="33.02"/>
 <instance part="GND3" gate="1" x="17.78" y="22.86"/>
 <instance part="R3" gate="G$1" x="17.78" y="45.72" rot="R90"/>
 <instance part="GND4" gate="1" x="-5.08" y="20.32"/>
@@ -3373,7 +3373,7 @@ For COM-09806 in the SparkFun catalog&lt;br&gt;</description>
 <junction x="33.02" y="27.94"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="A"/>
+<pinref part="R6" gate="G$1" pin="A"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -3412,13 +3412,13 @@ For COM-09806 in the SparkFun catalog&lt;br&gt;</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="E"/>
+<pinref part="R6" gate="G$1" pin="E"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="S"/>
+<pinref part="R6" gate="G$1" pin="S"/>
 <pinref part="IC1" gate="G$1" pin="+IN"/>
 <wire x1="22.86" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
 </segment>
