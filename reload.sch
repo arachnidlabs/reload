@@ -3087,8 +3087,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="RELOAD" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="IC1" library="nickparts" deviceset="OPAMP-DUAL" device="MS"/>
-<part name="IC2" library="SparkFun-PowerIC" deviceset="V_REG_MIC2920" device=""/>
+<part name="IC1" library="nickparts" deviceset="OPAMP-DUAL" device="MS" value="MCP6002"/>
+<part name="IC2" library="SparkFun-PowerIC" deviceset="V_REG_MIC2920" device="" value="LM2936-3.0"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="1X03_NO_SILK"/>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k 1%"/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1u"/>
@@ -3119,6 +3119,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="124.46" y="180.34" size="3.81" layer="94" align="bottom-center">Constant Load</text>
 <text x="210.82" y="180.34" size="3.81" layer="94" align="bottom-center">Current Reading</text>
 <text x="200.66" y="7.62" size="2.54" layer="94" align="bottom-center">Arachnid Labs (Nick Johnson)</text>
+<text x="152.4" y="114.3" size="1.778" layer="97" align="bottom-center">Two footprints for Q1
+Populate only one</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="147.32" y="83.82" rot="R90"/>
@@ -3405,4 +3407,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

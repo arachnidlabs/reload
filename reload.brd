@@ -2902,10 +2902,10 @@ design rules under a new name.</description>
 </element>
 <element name="U$2" library="nickparts" package="ARACHNID_LABS_LOGO_SM" value="" x="20.75" y="15.24" rot="MR270"/>
 <element name="U$3" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="" x="11.86" y="15.24" rot="MR270"/>
-<element name="IC1" library="nickparts" package="SOP08" value="OPAMP-DUALMS" x="31.115" y="11.43" smashed="yes">
+<element name="IC1" library="nickparts" package="SOP08" value="MCP6002" x="31.115" y="11.43" smashed="yes">
 <attribute name="NAME" x="31.115" y="11.43" size="0.8128" layer="25" align="bottom-center"/>
 </element>
-<element name="IC2" library="SparkFun-PowerIC" package="SOT223" value="V_REG_MIC2920" x="18.7325" y="20.955" smashed="yes">
+<element name="IC2" library="SparkFun-PowerIC" package="SOT223" value="LM2936-3.0" x="18.7325" y="20.955" smashed="yes">
 <attribute name="NAME" x="18.7325" y="20.955" size="0.8128" layer="25" align="bottom-center"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="1X03_NO_SILK" value="" x="31.115" y="1.905" smashed="yes">
@@ -3200,9 +3200,6 @@ design rules under a new name.</description>
 <wire x1="24.384" y1="15.7463" x2="24.4348" y2="15.748" width="0.254" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,16,a498a664d864a466"/>
-</errors>
 </board>
 </drawing>
 </eagle>
